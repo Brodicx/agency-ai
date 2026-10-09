@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import assets from '../assets/assets'
+import { motion } from 'framer-motion'
 const ThemeToggleBtn = ({theme, setTheme}) => {
     useEffect(() => {
         const preferDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
